@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: fixed; 
+}
+.header img{
+    padding-top: 9px;
+}
+.page1{
+    width: 100%;
+    background: linear-gradient(rgba(158, 152, 152, 0), black),url(thumbnails/kevin-oleary-wondercare-3.jpg);
+    top: 10%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 150%;
+    
+    height: 38rem;    
+}
+.about{
+    margin-top: 150px;
+    position: absolute;
+    left: 6%;
+}
+.heading h1{
+    font-size: 50px;
+    color: wheat;
+}
+.info p{
+    color: wheat;
+    font-size: 18px;
+}
+.getstartedbutton{
+    background-color: rgb(202, 163, 91);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5rem;
+    font-size: 17px;
+    color: white;
+}
+.button1{
+    margin-top: 7rem;
+}
+.page2{
+    top: 100%;
+    position: absolute;
+    left: 30%;
+    margin-top: 115px;
+}
+.header2 h1{
+    font-size: 60px;
+}
+.paragraph2 p{
+    font-size: 20px;
+}
+.line{
+    position: absolute;
+    margin-top: 115px;
+    margin-right: 130px;
+    
+}
+.getstartedbutton:hover{
+    cursor: pointer;
+    background-color: wheat;
+    
+}
+@media only screen and (max-width: 700px) {
+   .page1{
+    height: 100vh;
+    top: 11%;
+   }
+   .heading h1{
+    font-size: 30px;
+   }
+   .info p{
+    font-size: 15px;
+   }
+   .getstartedbutton{
+    width: 130px;
+    font-size: 15px;
+    height: 50px;
+   }
+   .button1{
+    margin-top: 3rem;
+   }
+   .header2 h1{
+    font-size: 26px;
+   }
+   .paragraph2 p{
+    font-size: 16px;
+    font-style: oblique;
+   }
+   .page2{
+    left: 10%;
+   }
+   .line{
+    margin-top: 50px;
+    left: 2%;
+   }
+   hr{
+    width: 100px;
+   }
+
+}
+
+
